@@ -12,6 +12,8 @@ import { NewsComponent } from './news/news.component';
 import { AboutComponent } from './about/about.component';
 import { TeamComponent } from './team/team.component';
 import { EducationComponent } from './education/education.component';
+import { PublicationComponent } from './publication/publication.component';
+import { PartnersComponent } from './partners/partners.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { EducationComponent } from './education/education.component';
     NewsComponent,
     AboutComponent,
     TeamComponent,
-    EducationComponent
+    EducationComponent,
+    PublicationComponent,
+    PartnersComponent
   ],
   imports: [
     BrowserModule,

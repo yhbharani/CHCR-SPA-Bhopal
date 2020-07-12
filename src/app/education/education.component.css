@@ -74,6 +74,11 @@
     background-image: linear-gradient(to right, #a4508b 0%, #5f08a7 51%, #a4508b 100%);
   }
 
+  .brief{
+      position: relative;
+      top: -50px;
+  }
+
   .container {
     width: 70%;
     height: 470px;
