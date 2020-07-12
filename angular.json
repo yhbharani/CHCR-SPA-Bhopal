@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "chcr"
+    }
+  },
+  "defaultProject": "chcr",
+  "cli": {
+    "analytics": "5151088d-e16b-4982-a770-32204b5010ff"
+  }
 }
