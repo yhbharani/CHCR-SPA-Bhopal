@@ -1,16 +1,21 @@
-.container{
+.container-fluid{
 
   background-color: white;
   z-index: 999;
   position: sticky;
+  padding-bottom: 3px;
   top: 0;
   width: 100%;
+  padding-left: 10%;
+  padding-right: 25%;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.20);
 }
 
 
 ul li {
     display: inline;
     text-align: center;
+    cursor: pointer;
   }
   
   a {
@@ -63,10 +68,19 @@ ul li {
   #rail{
       
       height: 2px;
-      width:100%;
-      
-      margin: 0;
+      width:120%;
+      display: block;      
+      margin: 0 auto;
       background: #C4C4C4;;
       border: none;
       
+  }
+
+  .search{
+    position: absolute;
+    right: 13%;
+    top: 10px;
+    background-image: url(../../assets/search.png);
+    height: 24px;
+    width: 24px;
   }

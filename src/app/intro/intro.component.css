@@ -31,4 +31,5 @@ p{
 
 .carousel-caption{
     background-image: linear-gradient( rgba(255,0,0,0), rgba(48, 48, 48, .5) );
+    bottom: 0;
 }

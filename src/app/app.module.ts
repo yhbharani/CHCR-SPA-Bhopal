@@ -14,6 +14,8 @@ import { TeamComponent } from './team/team.component';
 import { EducationComponent } from './education/education.component';
 import { PublicationComponent } from './publication/publication.component';
 import { PartnersComponent } from './partners/partners.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { PartnersComponent } from './partners/partners.component';
     TeamComponent,
     EducationComponent,
     PublicationComponent,
-    PartnersComponent
+    PartnersComponent,
+    ProjectsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

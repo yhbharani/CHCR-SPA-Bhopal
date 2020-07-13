@@ -33,3 +33,21 @@
       line-height: 18px;
       margin-top: 30px;
   }
+
+  .logos{
+      display: block;
+      text-align: center;
+  }
+
+  img{
+    margin: 10px;
+  }
+
+  .award{
+      display: inline-block;
+      width:120px;
+      height:120px;
+      background-color: rgb(219, 219, 219);
+      border-radius: 20px;
+      margin: 50px;
+  }
