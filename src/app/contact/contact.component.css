@@ -13,3 +13,54 @@
     height: 820px;
     background: linear-gradient(180deg, #515B78 0%, #000000 240.11%);
 }
+
+.content{
+    position: relative;
+    top: -250px;
+    left: 30px;
+}
+
+.title{
+    text-align: left;
+    padding-top: 5px;
+    display: block;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #fff;
+}
+
+
+.detail{
+    display: flex;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.entry{
+
+    text-align: left;
+    margin-left: 10px;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    font-family: Roboto;
+    padding-left: 20px;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 26px;
+color: rgba(255, 255, 255, 0.75);
+}
+
+.social{
+    text-align: center;
+    display: block;
+    margin-left: 40%;
+    margin-top: -2%;
+}
+
+.s-icon{
+    margin: 10px;
+}
