@@ -19,7 +19,7 @@ export class ContactComponent implements OnInit {
 
   processForm() {
     const allInfo = `My name is ${this.name}. My email is ${this.email}.Phone No: ${this.phone}. My message is ${this.message}`;
-    alert('Message is currently Disabled :( ........................ Please Email me at yash.h.bharani@gmail.com'); 
+    alert('Message is currently Disabled :( ........................'); 
   }
 
 }
