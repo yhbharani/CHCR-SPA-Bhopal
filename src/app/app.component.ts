@@ -14,9 +14,6 @@ export class AppComponent implements OnInit {
 
     var scrollLink = $('.scroll');
   
-    // Smooth scrolling
-    scrollLink.click(function(eve) {
-    });
  
     // Active link switching  
 

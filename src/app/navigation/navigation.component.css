@@ -28,6 +28,10 @@ ul li {
     color: #333;
   }
   
+  .li.two.active {
+    display: none;
+    color: #A4508B;
+  }
   .two:hover ~ #underline {
     margin-left: 12.5%;
   }
