@@ -9,7 +9,30 @@
         <li class="seven"><a href="#awards" class="scroll">Achievements</a></li>
         <li class="eight"><a href="#contact" class="scroll">Contact</a></li>
         <li><div class="search"></div></li>
+        <li><div class="menu-btn" (click)="toggle();"></div>
+        </li>
         <hr id="underline">
         <hr id="rail">
     </ul>
+
+    <div class="menu-btn" (click)="toggle();"><i class="fa fa-bars"></i></div>
 </nav>
+
+<div class="menu">
+
+    <div *ngIf="drop" class="drop" @pull>
+        <ul (click)="toggle();">
+            <li class="item"><a href="#home" class="scroll">Home</a></li>
+            <li class="item"><a href="#about" class="scroll">About Us</a></li>
+            <li class="item"><a href="#education" class="scroll">Education</a></li>
+            <li class="item"><a href="#projects" class="scroll">Research</a></li>
+            <li class="item"><a href="#" class="scroll">Services</a></li>
+            <li class="item"><a href="#publication" class="scroll">Resources</a></li>
+            <li class="item"><a href="#awards" class="scroll">Achievements</a></li>
+            <li class="item"><a href="#contact" class="scroll">Contact</a></li>
+
+        
+        </ul>
+    </div> 
+
+</div>

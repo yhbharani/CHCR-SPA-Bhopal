@@ -33,6 +33,7 @@
 
 .spa-logo{
   width: 20%;
+  height: auto;
     background-repeat: no-repeat;
     background-size: contain;
     max-width: 219px;
