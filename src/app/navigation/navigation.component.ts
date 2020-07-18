@@ -14,11 +14,11 @@ import {
   animations:[
     trigger('pull',[
       transition('void => *',[
-        style({ transform: 'translateX(130%)' }),
+        style({ transform: 'translateY(-130%)' }),
         animate('0.4s ease-in')
       ]),
       transition('* => void',[
-        animate('0.4s ease-out', style({ transform: 'translateX(130%)' }))
+        animate('0.4s ease-out', style({ transform: 'translateY(-130%)' }))
       ])
     ])
   ] 
