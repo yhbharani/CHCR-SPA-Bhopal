@@ -14,10 +14,10 @@
 }
 
 .chcr-logo{
-  width: 20%;
     background-repeat: no-repeat;
     background-size: contain;
     max-width: 219px;
+    min-height: 60px;
     background-image: url(../../assets/logo.png);
 }
 
@@ -26,17 +26,24 @@
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
-    font-size: 2vw;
-    line-height: 2.5vw;
+    font-size: 30px;
+    line-height: 40px;
     color: #000000;
 }
 
 .spa-logo{
-  width: 20%;
-  height: auto;
+  width: 18%;
     background-repeat: no-repeat;
     background-size: contain;
     max-width: 219px;
     text-align: right;
     background-image: url(../../assets/SPA-logo.png);
+}
+
+@media only screen and (max-width: 990px){
+
+  .title{
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
