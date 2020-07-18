@@ -98,7 +98,7 @@ top: 0;
   .menu-btn{
     position: relative;
     display: none;
-    right: -125%;
+    right: -120%;
     background-image: url(../../assets/menu.svg);
     background-repeat: no-repeat;
     background-size: contain;

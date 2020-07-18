@@ -1,23 +1,24 @@
 .blue-logs{
     position: relative;
-    top: -298px;
+    top: -23vw;
     display: block;
-    height: 300px;
+    height: 23vw;
     background-image: url(../../assets/blue-logs.png);
     background-repeat: no-repeat;
+    background-size: contain;
     background-position: bottom right;
 }
 .contact-box{
     position: relative;
     width: 100%;
-    height: 820px;
+    height: auto;
     background: linear-gradient(180deg, #515B78 0%, #000000 240.11%);
 }
 
 .content{
     position: relative;
-    top: -250px;
-    left: 30px;
+    top: -21vw;
+    width: 100%;
 }
 
 .title{
@@ -56,10 +57,9 @@ color: rgba(255, 255, 255, 0.75);
 }
 
 .social{
-    text-align: center;
+    text-align: right;
     display: block;
-    margin-left: 60%;
-    margin-top: -2%;
+   
 }
 
 .s-icon{
@@ -112,4 +112,23 @@ color: rgba(255, 255, 255, 0.75);
       display: block;
       text-align: center;
       width: 100%;
+  }
+
+  @media only screen and (max-width: 990px){
+
+    .social{
+        text-align: right;
+        display: block;
+     
+        margin-top: 15%;
+    }
+.title{
+    padding-top: 20px ;
+    padding-left: 10px;
+}
+
+.footer{
+    top: -60px;
+}
+
   }
