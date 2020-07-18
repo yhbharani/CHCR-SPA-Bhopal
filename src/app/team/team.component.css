@@ -2,7 +2,7 @@
     margin-top: 50px;
     text-align: center;
     display: block;
-    font-family: Roboto Slab;
+    font-family: "Roboto Slab";
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -26,7 +26,7 @@
   .discription{
       text-align: center;
       display: block;
-      font-family: Roboto;
+      font-family: "Roboto";
       font-style: normal;
       font-weight: 300;
       font-size: 14px;
